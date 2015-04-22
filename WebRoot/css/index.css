@@ -1,0 +1,341 @@
+body {
+	padding: 0px;
+	margin-top: 1px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	background:#FCC;
+}
+#container {
+	padding: 0px;
+	width: 800px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+#banner {
+	height: 100px;
+	width: 800px;
+	background-repeat: no-repeat;
+	background-image: url(../images/banner.jpg);
+}
+#globallink {
+	background-image: url(../images/globallink.jpg);
+	margin: 0px;
+	padding: 0px;
+	width: 800px;
+	height: 30px;
+}
+#globallink ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+#globallink li {
+	text-align: center;
+	width: 100px;
+	float: left;
+}
+#globallink a {
+	color: #F8FF79;
+	text-decoration: none;
+	font-size: 14px;
+	background-image: url(../images/globallink%20a.jpg);
+	background-repeat: no-repeat;
+	display: block;
+	padding-top: 7px;
+	padding-bottom: 9px;
+	padding-right: 6px;
+	padding-left: 6px;
+}
+#globallink a:link,#globallink a:visited {
+	color: #F8FF79;
+	text-decoration: none;
+}
+#globallink a:hover {
+	color: #FFFFFF;
+	text-decoration: underline;
+	background-image: url(../images/a%20hover.jpg);
+	background-repeat: no-repeat;
+}
+.img {
+	border:0px;
+}
+.imgsBox {
+	overflow:hidden;
+	width:800px;
+	height:350px;
+}
+.imgs a {
+	display:block;
+	width:800px;
+	height:335px;
+}
+.clickButton {
+	width:800px;
+	height:15px;
+	position:relative;
+	top:-1px;
+	top:-5px;
+}
+.clickButton div {
+	float: right;
+}
+.clickButton a {
+	background-color:#999999;
+	border-left:#ccc 1px solid;
+	line-height:15px;
+	height:15px;
+	font-size:10px;
+	float:left;
+	padding:0 7px;
+	text-decoration:none;
+	color:#fff;
+}
+.clickButton a.active,.clickButton a:hover {
+	background-color:#d34600;
+}
+#login {
+	float: left;
+	height: auto;
+	width: 198px;
+}
+#left {
+	height: 170px;
+	width: 198px;
+}
+#left form {
+	height: 118px;
+	width: 183px;
+	background-image: url(../images/login.jpg);
+	padding-top: 52px;
+	padding-left: 15px;
+	margin-top: 3px;
+}
+#left .hui{
+	height: 118px;
+	width: 183px;
+	background-image: url(../images/login.jpg);
+	padding-top: 72px;
+	padding-left: 15px;
+	margin-top: 3px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #333333;
+}
+#left form p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #333333;
+}
+#left p input {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+#left form input.text {
+	border: 1px solid #333333;
+}
+#left form input.password {
+	border: 1px solid #333333;
+}
+#left form a:link,#left form a:visited {
+	color: #CC3300;
+	text-decoration: none;
+	font-size: 12px;
+}
+#left form a:hover {
+	color: #FF9933;
+	text-decoration: underline;
+}
+#left form input.btn {
+	font-size: 14px;
+	font-family: "方正姚体";
+	color: #333333;
+	font-weight: bold;
+	background-color: #CCFFFF;
+}
+#category {
+	background-image: url(../images/category.jpg);
+	height: 420px;
+	width: 198px;
+	background-repeat: no-repeat;
+	background-color: #FFFFFF;
+	padding-top: 80px;
+	margin-top: 3px;
+}
+#category ul {
+	list-style-type: none;
+	margin: 0px;
+	padding-top: 5px;
+	padding-right: 22px;
+	padding-bottom: 15px;
+	padding-left: 5px;
+}
+#category ul li {
+	font-size: 14px;
+	text-align: center;
+	height: 15px;
+	padding-top: 6px;
+	padding-right: 15px;
+	padding-bottom: 4px;
+	padding-left: 22px;
+	background-image: url(../images/icon.jpg);
+	background-repeat: no-repeat;
+	background-position: 30px 6px;
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #FF99FF;
+	margin-left: 10px;
+}
+#category ul li a:link,#category ul li a:visited {
+	text-decoration: none;
+	color: #000033;
+	font-family: "幼圆";
+	font-weight: bold;
+}
+#category ul li a:hover {
+	color: #FF0033;
+	text-decoration: underline;
+}
+#help {
+	padding: 0px;
+	height: 232px;
+	width: 198px;
+	margin-top: 3px;
+}
+#right {
+	margin-top: 3px;
+	margin-left: 5px;
+	padding: 0px;
+	float: left;
+	height: auto;
+	width: 597px;
+}
+#recommend {
+	height: 170px;
+	width: 597px;
+	background-image: url(../images/recommend.jpg);
+	background-repeat: no-repeat;
+	padding: 0px;
+}
+#recommend marquee {
+	float: right;
+}
+#recommend a {
+	text-decoration: none;
+}
+#recommend img {
+	padding: 0px;
+	margin-right: 0px;
+	margin-left: 3px;
+	float: right;
+}
+#sale {
+	padding: 0px;
+	height: 618px;
+	width: 597px;
+	margin-top: 3px;
+}
+#sale1 {
+	margin: 0px;
+	padding: 0px;
+	height: 60px;
+	width: 597px;
+	background-image: url(../images/gift.jpg);
+	background-repeat: no-repeat;
+}
+#sale2 {
+	margin: 0px;
+	padding: 0px;
+	height: 558px;
+	width: 597px;
+}
+#sale2 img {
+	padding: 0px;
+	float: left;
+	margin-top: 1px;
+	margin-right: 0px;
+	margin-bottom: 1px;
+	margin-left: 1px;
+}
+#sale3
+{
+	clear:left;
+	text-align:right;
+	color: #000033;
+	font-family: "幼圆";
+	font-weight: bold;
+}
+#bottom {
+	padding: 0px;
+	float: left;
+	height: 50px;
+	width: 798px;
+	margin-top: 2px;
+	text-align: center;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+#bottom p {
+	text-align: center;
+	padding: 0px;
+}
+
+#bottom1 {
+	float: left;
+	height: 150px;
+	width: 259px;
+	margin: 0px;
+	padding: 0px;
+}
+
+#bottom2 {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	height: 150px;
+	width: 280px;
+}
+#bottom3 {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	height: 150px;
+	width: 259px;
+}
+#bottom a:link,#bottom a:visited {
+	font-family: "隶书";
+	font-size: 16px;
+	text-decoration: none;
+	color: #333333;
+	line-height: 20px;
+}
+#bottom a:hover {
+	color: #0099FF;
+	text-decoration: underline;
+}
+#last {
+	padding: 0px;
+	height: 152px;
+	width: 800px;
+	background-image: url(../images/last.jpg);
+	float: left;
+	margin: 0px;
+	background-repeat: no-repeat;
+}
+#last img {
+	margin-left: 527px;
+	margin-top: 24px;
+}
+.mytable
+{
+	background-color: #A9CFF3;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: #333333;
+}

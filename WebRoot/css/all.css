@@ -1,0 +1,281 @@
+body {
+	padding: 0px;
+	margin-top: 1px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	background:#FCC;
+}
+#container {
+	padding: 0px;
+	width: 800px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	height: 1570px;
+}
+#banner {
+	height: 100px;
+	width: 800px;
+	background-repeat: no-repeat;
+	background-image: url(../images/banner.jpg);
+}
+#globallink {
+	background-image: url(../images/globallink.jpg);
+	margin: 0px;
+	padding: 0px;
+	width: 800px;
+	height: 30px;
+}
+#globallink ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+#globallink li {
+	text-align: center;
+	width: 100px;
+	float: left;
+}
+#globallink a {
+	color: #F8FF79;
+	text-decoration: none;
+	font-size: 14px;
+	background-image: url(../images/globallink%20a.jpg);
+	background-repeat: no-repeat;
+	display: block;
+	padding-top: 7px;
+	padding-bottom: 9px;
+	padding-right: 6px;
+	padding-left: 6px;
+}
+#globallink a:link,#globallink a:visited {
+	color: #F8FF79;
+	text-decoration: none;
+}
+#globallink a:hover {
+	color: #FFFFFF;
+	text-decoration: underline;
+	background-image: url(../images/a%20hover.jpg);
+	background-repeat: no-repeat;
+}
+#left {
+	padding: 0px;
+	height: 550px;
+	width: 130px;
+	float: left;
+	margin-top: 3px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+ul {
+	list-style:none;
+	margin:0;
+	padding:0;		/*以上三条为无序列表的通用设置*/
+}
+#l {
+	margin-top: 30px;
+}
+
+#accordion {
+	width:128px; 		/*设置折叠式菜单内容的宽度为200px*/
+}
+#accordion li {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #ABDD5A;
+}
+#accordion a {
+	font-size: 14px;
+	color:#FFFFFF;
+	text-decoration: none;
+	display:block;
+	background-color:#89CD1B;
+	height:1em; 				/* 此条为解决IE 6的bug*/
+	padding-top: 7px;
+	padding-right: 7px;
+	padding-bottom: 7px;
+	padding-left: 0.7em;
+	border-right-width: 1px;
+	border-left-width: 16px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #009900;
+	border-left-color: #009900;
+}
+#accordion a:hover {
+	background-color:#00CCCC;			/* 改变背景色 */
+	color:#ffff00; 				/* 改变文字颜色为黄色 */
+}
+#accordion li ul li {			/* 子菜单项的样式设置 */
+	border-top-width: 0.5px;
+	border-top-style: solid;
+	border-top-color: #A2DA48;
+}
+#accordion li ul li a{			/* 子菜单项的样式设置 */
+	background-color:#A2DA48;
+	border-right-width: 1px;
+	border-left-width: 24px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #009900;
+	border-left-color: #009900;
+	padding-top: 4px;
+	padding-right: 4px;
+	padding-bottom: 4px;
+	padding-left: 1.4em;
+}
+#accordion li ul li a:hover{		/* 改变子菜单项的背景色和前景色 */
+	background-color:#A4FE9E;
+	color:#ffff00;
+}
+#right {
+	padding: 0px;
+	float: left;
+	height: 550px;
+	width: 668px;
+	margin-top: 3px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 2px;
+}
+#youtu1 {
+	padding-right: 576px;
+	background-color: #FFFFCC;
+}
+#youtu2 {
+	padding-right: 708px;
+	background-color: #FFFFCC;
+}
+#lib {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+#lib li {
+	float: left;
+	margin-top: 0px;
+	margin-right: 1px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+#lib img {
+	border: 3px solid #F4F4F4;
+	margin: 0px;
+	padding: 0px;
+}
+#lib a {
+	position: relative;
+}
+#lib a:hover {
+	border: 1px solid #CCCCCC;
+	z-index: 1000;
+}
+#lib a:hover img {
+	height: 240px;
+	width: 260px;
+	position: absolute;
+	left: -50px;
+}
+#center {
+	height: 512px;
+	width: 800px;
+	float: left;
+	margin: 0px;
+	padding: 0px;
+}
+#lib1 {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+#lib1 li {
+	float: left;
+	margin-top: 0px;
+	margin-right: 0.3px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+#lib1 img {
+	border: 3px solid #f4f4f4;
+	padding: 0px;
+	margin: 0px;
+}
+#lib1 a {
+	position: relative;
+}
+#lib1 a:hover {
+	border: 1px solid #cccccc;
+	z-index: 1000;
+}
+#lib1 a:hover img {
+	height: 200px;
+	width: 300px;
+	position: absolute;
+	left: -50px;
+	top: -40px;
+}
+#bottom {
+	padding: 0px;
+	float: left;
+	height: 150px;
+	width: 798px;
+	margin-top: 2px;
+	text-align: center;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+#bottom p {
+	text-align: center;
+	padding: 0px;
+}
+
+#bottom1 {
+	float: left;
+	height: 150px;
+	width: 259px;
+	margin: 0px;
+	padding: 0px;
+}
+
+#bottom2 {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	height: 150px;
+	width: 280px;
+}
+#bottom3 {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	height: 150px;
+	width: 259px;
+}
+#bottom a:link,#bottom a:visited {
+	font-family: "隶书";
+	font-size: 16px;
+	text-decoration: none;
+	color: #333333;
+	line-height: 20px;
+}
+#bottom a:hover {
+	color: #0099FF;
+	text-decoration: underline;
+}
+#last {
+	padding: 0px;
+	height: 152px;
+	width: 800px;
+	background-image: url(../images/last.jpg);
+	float: left;
+	margin: 0px;
+	background-repeat: no-repeat;
+}
+#last img {
+	margin-left: 527px;
+	margin-top: 24px;
+}

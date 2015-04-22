@@ -1,0 +1,128 @@
+body {
+	padding: 0px;
+	margin-top: 1px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	background:#FCC;
+}
+#container {
+	padding: 0px;
+	width: 800px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	height: 1500px;
+}
+#banner {
+	height: 100px;
+	width: 800px;
+	background-repeat: no-repeat;
+	background-image: url(../images/banner.jpg);
+}
+#globallink {
+	background-image: url(../images/globallink.jpg);
+	margin: 0px;
+	padding: 0px;
+	width: 800px;
+	height: 30px;
+}
+#globallink ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+#globallink li {
+	text-align: center;
+	width: 100px;
+	float: left;
+}
+#globallink a {
+	color: #F8FF79;
+	text-decoration: none;
+	font-size: 14px;
+	background-image: url(../images/globallink%20a.jpg);
+	background-repeat: no-repeat;
+	display: block;
+	padding-top: 7px;
+	padding-bottom: 9px;
+	padding-right: 6px;
+	padding-left: 6px;
+}
+#globallink a:link,#globallink a:visited {
+	color: #F8FF79;
+	text-decoration: none;
+}
+#globallink a:hover {
+	color: #FFFFFF;
+	text-decoration: underline;
+	background-image: url(../images/a%20hover.jpg);
+	background-repeat: no-repeat;
+}
+#vip {
+	height: auto;
+	width: 800px;
+}
+table {
+	font-family: "Ó×Ô²";
+	font-size: 18px;
+	font-weight: bold;
+	color: #FF6699;
+	width: 800px;
+	height: 350px;
+	text-align: center;
+	border: 1px inset #333333;
+	padding: 0px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+#bottom {
+	padding: 0px;
+	float: left;
+	height: 150px;
+	width: 798px;
+	margin-top: 2px;
+	text-align: center;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+#bottom p {
+	text-align: center;
+	padding: 0px;
+}
+
+#bottom1 {
+	float: left;
+	height: 150px;
+	width: 259px;
+	margin: 0px;
+	padding: 0px;
+}
+
+#bottom2 {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	height: 150px;
+	width: 280px;
+}
+#bottom3 {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	height: 150px;
+	width: 259px;
+}
+#bottom a:link,#bottom a:visited {
+	font-family: "Á¥Êé";
+	font-size: 16px;
+	text-decoration: none;
+	color: #333333;
+	line-height: 20px;
+}
+#bottom a:hover {
+	color: #0099FF;
+	text-decoration: underline;
+}

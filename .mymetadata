@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="taskSystem"
+  id="myeclipse.1429432852052"
+  context-root="/taskSystem"
+  j2ee-spec="5.0"
+  archive="taskSystem.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+
